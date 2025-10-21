@@ -97,8 +97,8 @@ ninja install
 
 ### Compile any C program:
 ```bash
-# Assuming llvm-project is in the same parent directory
-# Adjust the path based on where your C file is located
+# From biriscv-custom-instructions/benchmarks_and_tests/
+# Or adjust the path based on where your C file is located
 
 ../../llvm-project/install/bin/clang -O3 -march=rv32im_xbiriscv0p1 -mabi=ilp32 \
     -target riscv32-unknown-elf -S \
